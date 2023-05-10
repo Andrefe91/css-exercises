@@ -1,3 +1,30 @@
+* {
+  border: 0px solid red;
+}
+
+.plants {
+  border: 0px dashed green;
+  justify-content: center;
+  padding: 0px;
+  gap: 52px;
+  margin-left: 52px;
+  margin-right: 52px;
+
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  border: 0px dashed blue;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 200px;
+}
+
+.text {
+  text-align: center;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -11,6 +38,19 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.plants {
+  display: flex;
+}
+
+
 
 /* do not edit this footer */
 .footer {
